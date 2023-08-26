@@ -186,8 +186,10 @@ if __name__ == "__main__":
     
     # start each process
     p1.start()
+    print("Waiting...")
     time.sleep(10)
     p2.start()
+    print("Waiting...")
     time.sleep(10)
     p3.start()
        
