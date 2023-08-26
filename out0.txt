@@ -1,7 +1,37 @@
-In the console, type clear and hit Enter or Return. 
+base) pasqualesalomone@mymac streaming-02-multiple-processes % python multiple_processes.py  
+2023-08-25 21:51:54,123 - INFO - 
+======================================================================
+STARTING UP.............................
+  Date and Time:    2023-08-25 at 09:51 PM
+  Operating System: posix Darwin 22.6.0
+  Python Version:   3.8.17
+  Path to Interpreter:  /opt/anaconda3/bin/python
+======================================================================
 
-This will clear the console output. 
+2023-08-25 21:51:54,124 - INFO - Called recreate_database().
+2023-08-25 21:51:54,124 - INFO - Called drop_table().
+2023-08-25 21:51:54,129 - INFO - Table 'pets' dropped successfully.
+2023-08-25 21:51:54,129 - INFO - Called create_table().
+2023-08-25 21:51:54,131 - INFO - Table 'pets' created successfully.
+Waiting...
+2023-08-25 21:51:54,225 - INFO - Called process_one().
+2023-08-25 21:51:54,225 - INFO -   Called insert_pet() with process=P1, name=Ace, breed=Dog.
+2023-08-25 21:51:54,229 - INFO -   Called insert_pet() with process=P1, name=Buddy, breed=Dog.
+Waiting...
+2023-08-25 21:52:04,239 - INFO - Called process_two().
+2023-08-25 21:52:04,240 - INFO -   Called insert_pet() with process=P2, name=Cooper, breed=Rabbit.
+2023-08-25 21:52:04,244 - INFO -   Called insert_pet() with process=P2, name=Dingo, breed=Dog.
+2023-08-25 21:52:14,243 - INFO - Called process_three().
+2023-08-25 21:52:14,243 - INFO -   Called insert_pet() with process=P3, name=Emma, breed=Rabbit.
+2023-08-25 21:52:14,247 - INFO -   Called insert_pet() with process=P3, name=Felix, breed=Cat.
+2023-08-25 21:52:14,257 - INFO - 
+SUCCESS: All processes successfully completed!
 
-Run the file once while the tasks are short. 
+Now - increase the task duration (representing 
+      the time the task has the database 
+      tied up during an insert statement).
+How well do multiple, concurrent processes share a database 
+    when each task takes more time? 
+How can multiple processes share a resource
+    without interfering with each other?
 
-Copy and paste the terminal results (when task_duration is 0) here.
