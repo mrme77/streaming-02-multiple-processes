@@ -1,0 +1,24 @@
+
+======================================================================
+======================================================================
+ Welcome to the Python Debugging Information Utility ABOUT.PY
+ Date and Time: 2023-08-24 at 10:38 PM
+ Operating System: posix Darwin 22.6.0
+ System Architecture: 64bit
+ Number of CPUs: 8
+ Machine Type: x86_64
+ Python Version: 3.8.17
+ Python Build Date and Compiler: default with Jul  5 2023 16:07:30
+ Python Implementation: CPython
+ Active pip environment: None
+ Path to Interpreter:         /opt/anaconda3/bin/python
+ Path to virtual environment: /opt/anaconda3
+ Current Working Directory:   /Users/pasqualesalomone/Desktop/DataStreaming/module2/streaming-02-multiple-processes
+ Path to source directory:    /Users/pasqualesalomone/Desktop/DataStreaming/module2/streaming-02-multiple-processes
+ Path to script file:         about.py
+ User's Home Directory:       /Users/pasqualesalomone
+ Terminal Environment:        VS Code
+ Terminal Type:               zsh
+ Git available in PATH:       True 
+======================================================================
+======================================================================

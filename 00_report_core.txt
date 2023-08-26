@@ -1,0 +1,25 @@
+
+======================================================================
+======================================================================
+ Welcome to NW Diagnostics!
+ At: 2023-08-24 at 10:35 PM
+ Operating System: posix Darwin 22.6.0
+ System Architecture: 64bit
+ Number of CPUs: 8
+ Machine Type: x86_64
+ Python Version: 3.11.4
+ Python Build Date and Compiler: main with Jul 25 2023 17:07:07
+ Python Implementation: CPython
+ Active pip environment: None
+ Path to Interpreter:         /usr/local/opt/python@3.11/bin/python3.11
+ Path to virtual environment: /usr/local/opt/python@3.11/Frameworks/Python.framework/Versions/3.11
+ Current Working Directory:   /Users/pasqualesalomone/Desktop/DataStreaming/module2/streaming-02-multiple-processes
+ Path to source directory:    /Users/pasqualesalomone/Desktop/DataStreaming/module2/streaming-02-multiple-processes
+ Path to script file:         /Users/pasqualesalomone/Desktop/DataStreaming/module2/streaming-02-multiple-processes/00_check_core.py
+ User's Home Directory:       /Users/pasqualesalomone
+ Terminal Environment:        VS Code
+ Terminal Type:               zsh
+ Git available in PATH:       True 
+======================================================================
+======================================================================
+
