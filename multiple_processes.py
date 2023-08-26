@@ -41,6 +41,7 @@ TASK_DURATION_SECONDS = 3 # TODO: increase this to 3 and see what happens
 DIVIDER = "=" * 70  # A string divider for cleaner output formatting
 DB_NAME = "shared.db"
 
+
 # define a multi-line (doc) string to communicate with the user
 SUCCESS_MESSAGE ="""
 SUCCESS: All processes successfully completed!
@@ -136,6 +137,7 @@ def insert_pet(process, name, breed):
         conn = sqlite3.connect(DB_NAME)
         cur = conn.cursor()
         sql = f"INSERT INTO pets (name, breed) VALUES ('{name}', '{breed}');"
+        
         logging.debug(f"{process} getting ready to insert {name} the {breed}.")
         cur.execute(sql)
         logging.debug(f"{process} ADDED {name} the {breed}.")
@@ -144,6 +146,7 @@ def insert_pet(process, name, breed):
     except sqlite3.Error as error:
         logging.error(f"ERROR while {process} inserting pet {name}: {error}")
     finally:
+        
         conn.close()
 
 def process_one():
@@ -183,7 +186,9 @@ if __name__ == "__main__":
     
     # start each process
     p1.start()
+    time.sleep(10)
     p2.start()
+    time.sleep(10)
     p3.start()
        
     # wait for a processes to finish and rejoin the flow of execution
